@@ -54,6 +54,8 @@ def coll(file: str):
 def main():
     tmp = "tmp"
     shutil.copyfile("prefix", tmp)
+    if not os.path.exists("digits"):
+        os.mkdir("digits")
     for i in range(32):
         if not os.path.exists(f"digits/number{i}"):
             os.mkdir(f"digits/number{i}")
