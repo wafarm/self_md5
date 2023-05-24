@@ -20,4 +20,5 @@ jobs:
     - name: Upload build artifact
       uses: actions/upload-artifact@v3
       with:
-        name: result
+        name: build-artifact
+        path: result
