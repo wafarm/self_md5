@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 import hashlib
-import ctypes
 
 def main():
     # Generate stub
