@@ -9,7 +9,7 @@ def get_filesize(file: str):
     return os.path.getsize(file)
 
 prefix_size = get_filesize("prefix")
-fastcoll_path = "/home/qinyuyao/Documents/hashclash/bin/md5_fastcoll"
+fastcoll_path = "./md5_fastcoll"
 
 
 def coll(file: str):
