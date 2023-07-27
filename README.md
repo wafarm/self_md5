@@ -2,7 +2,7 @@
 
 This project aims to produce an executable that can output its own MD5 hash.
 
-# Build
+## Build
 
 ```bash
 make result
